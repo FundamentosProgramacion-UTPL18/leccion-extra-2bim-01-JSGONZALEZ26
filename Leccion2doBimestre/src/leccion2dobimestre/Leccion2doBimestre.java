@@ -21,12 +21,14 @@ public class Leccion2doBimestre {
         double arreglo2[] = {10, 20, 30, 40, 50, 60};
         double arreglo3[] = new double[6];
         double arreglo4 = 0;
-
+            /*Càlculo de promedio*/
         for (int i = 0; i < arreglo3.length; i++) {
             arreglo3[i] = (arreglo1[i] + arreglo2[i]) / 2;
             arreglo4 += arreglo3[i];
         }
         arreglo4 = arreglo4 / arreglo3.length;
+        
+        /*Presentación de Arreglos*/
         System.out.println("Arreglo 1\tArreglo 2\tResultado");
         for (int i = 0; i < arreglo3.length; i++) {
             System.out.println(arreglo1[i] + "\t\t" + arreglo2[i] + "\t\t" + arreglo3[i]);
